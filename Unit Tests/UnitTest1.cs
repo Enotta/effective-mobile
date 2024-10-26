@@ -16,6 +16,9 @@ namespace Unit_Tests
             new Order(10, 1.0, "d3", DateTime.Parse("2024-05-01T17:03:59"))
         };
 
+        /// <summary>
+        /// Проверяем работу фильтра при валидных входных данных
+        /// </summary>
         [TestMethod]
         public void FilterTest1()
         {
@@ -23,6 +26,9 @@ namespace Unit_Tests
             Assert.AreEqual(1, sortedOrders.Count);
         }
 
+        /// <summary>
+        /// Проверяем работу фильтра при неверно переданной дате
+        /// </summary>
         [TestMethod]
         public void FilterTest2()
         {
@@ -30,6 +36,9 @@ namespace Unit_Tests
             Assert.AreEqual(0, sortedOrders.Count);
         }
 
+        /// <summary>
+        /// Проверяем работу фильтра при дате большей чем все, что в заказах
+        /// </summary>
         [TestMethod]
         public void FilterTest3()
         {
@@ -37,6 +46,9 @@ namespace Unit_Tests
             Assert.AreEqual(0, sortedOrders.Count);
         }
 
+        /// <summary>
+        /// Проверяем работу фильтра при дате неудовлетворяющей одной из записей
+        /// </summary>
         [TestMethod]
         public void FilterTest4()
         {
