@@ -11,7 +11,6 @@ public class Logger
     public Logger(string path)
     {
         _filePath = path;
-        File.WriteAllText(_filePath, string.Empty);
     }
 
     /// <summary>
@@ -148,7 +147,6 @@ public class OrderProcessor
     /// <returns></returns>
     private async Task WriteOrdersToFile(List<Order> filteredOrders, string outputFilePath)
     {
-        File.WriteAllText(outputFilePath, string.Empty);
         using (StreamWriter writer = new StreamWriter(outputFilePath))
         {
             foreach (Order order in filteredOrders)
