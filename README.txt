@@ -1,9 +1,9 @@
-Effective Mobile C# Тестовое задание_1
+# Effective Mobile C# Тестовое задание_1
 
-Для ознакомлением с кодом задачи и кодом тестов открыть "...\effective-mobile\Effective Mobile\Effective Mobile.sln" с помощью Visual Studio и просмотреть соответствующие проекты.
-Для ознакомлением с билдом запустить exe-файл "...\effective-mobile\Effective Mobile\bin\Debug\net8.0\Effective Mobile.exe".
+### Для ознакомлением с кодом задачи и кодом тестов открыть "...\effective-mobile\Effective Mobile\Effective Mobile.sln" с помощью Visual Studio и просмотреть соответствующие проекты.
+### Для ознакомлением с билдом запустить exe-файл "...\effective-mobile\Effective Mobile\bin\Debug\net8.0\Effective Mobile.exe".
 
-Руководство пользователя:
+### Руководство пользователя:
 0. Собрать решение с помощью Visual Studio.
 0.1. Поместить в папку с билдом файл с заказами.
 1. Убедиться в том, что папка с билдом содержит файл с заказами в правильном формате. 
